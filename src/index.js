@@ -9,7 +9,7 @@ import ImageFileInput from "./components/image_file_input/image_file_input";
 const authService = new AuthService();
 const imageuploader = new ImageUploader();
 const FileInput = (props) => (
-  <ImageFileInput {...props} ImageUploader={imageuploader} />
+  <ImageFileInput {...props} imageUploader={imageuploader} />
 );
 
 ReactDOM.render(
